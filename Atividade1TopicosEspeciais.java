@@ -43,9 +43,11 @@ public class Atividade1TopicosEspeciais {
         
         Atividade1TopicosEspeciais carro1 = new Atividade1TopicosEspeciais("Tesla Model Y", "PIE-2021");
         Atividade1TopicosEspeciais carro2 = new Atividade1TopicosEspeciais("Dodge RAM", "LAL-1971");
+        Atividade1TopicosEspeciais carro3 = new Atividade1TopicosEspeciais("Auri r8", "CAM-1908");
         
         lista.add(carro1);
         lista.add(carro2);
+        lista.add(carro3);
         
         for(int i=0; i < lista.size(); i++) {
             System.out.println("\nNome do carro: "+ lista.get(i).getNomeDoCarro() + "\nPlaca: " + lista.get(i).getPlaca());
